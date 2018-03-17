@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Form, FormControl, FormGroup, ControlLabel} from 'react-bootstrap';
+import {Button, Form, FormControl, FormGroup, ControlLabel, Glyphicon} from 'react-bootstrap';
 
 
 let mock = {nombreProyecto: "proyX", numeroTrabajadores: 5}
@@ -46,7 +46,7 @@ export default class PantallaFormulario extends React.Component {
         return(
             <div>
               <Button onClick = {this.props.clickVolver.bind(this)}>
-                  Volver a la pantalla anterior
+                  <Glyphicon glyph="menu-left"/>Volver a la pantalla anterior
               </Button>
               <form onSubmit={this.handleSubmit}>
                 <FormGroup  controlId="nombreProyecto" >

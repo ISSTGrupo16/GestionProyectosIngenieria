@@ -1,5 +1,5 @@
 import React from 'react';
-import {PageHeader} from 'react-bootstrap';
+import {Navbar} from 'react-bootstrap';
 import './../assets/scss/main.scss';
 import ListaProyectos from './ListaProyectos'
 import AddProyecto from './AddProyecto'
@@ -60,7 +60,9 @@ export default class App extends React.Component {
 
     return(
         <div>
-            <PageHeader id="heading">Gestión de proyectos de ingeniería - Grupo 16</PageHeader>
+            <Navbar>
+                Gestión de proyectos de ingeniería - Grupo 16
+            </Navbar>
             {cuerpo}
         </div>
     );

@@ -5,7 +5,7 @@ export default class PantallaFormulario extends React.Component {
 
     constructor(props){
         super(props);
-        this.handleChange = this.
+
     }
 
     render() {
@@ -15,7 +15,7 @@ export default class PantallaFormulario extends React.Component {
                   Volver a la pantalla anterior
               </Button>
               <form>
-                  
+
               </form>
             </div>
         );
